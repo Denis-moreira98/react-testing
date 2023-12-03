@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from "@testing-library/react";
-import Button from "./components/Button";
+import Button from "./Button";
 
 describe("Button Component", () => {
    it("should render with red background if disabled", () => {
